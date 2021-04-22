@@ -1,0 +1,250 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+/********************************************* start HEADER *********************************************/
+.logger{color: rgb(20, 96, 184);
+    font-weight: bolder;
+    font-size: 4ch;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.B{
+    color: rgb(177, 101, 30);
+    font-weight: bolder;
+    font-size: 5ch;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+header a {
+	text-decoration: none;
+	margin-left: 5ch;
+	color: white;
+}
+
+header a:hover {
+	background-color: white;
+	padding: 10px 10px;
+	border-radius: 20px;
+	color: black;
+}
+/* end header */
+
+/*********************************start body **************************************/
+body{
+    background-image: url("images/back.jpg");
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+	background-size: 100%;
+	height: 120vh;
+}
+/* end body */
+
+/******************************************** start home***************************************************/
+.container_home {
+    display: grid;
+    grid-template-columns: 600px 200px;
+    color:black;
+    margin-top: 10ch;
+    margin-bottom: 15ch;
+  }
+  
+  .img_section {
+    width: 70ch;
+  }
+  
+  .description_home {
+    margin-top: 20px;
+    margin-left: 20ch;
+  }
+  .container_home h1 {
+    font-size: 8ch;
+  }
+  p {
+    max-width: 80%;
+  }
+/*end home*/
+
+/**********************************start top bar  *****************************************/
+
+  .connexion{margin-left: 120ch;
+     
+    background-color: rgb(78, 128, 235); padding: 5px 5px;
+  border-radius: 10px;}
+.connexion a{color: white; text-decoration: none;}
+  .connexion a:hover{color: black; background-color: white;}
+/* end top bar*/
+  
+/*****************************************  start ABOUT ***********************************************/
+
+.container_about {
+	display: grid;
+	grid-template-columns: 600px 600px;
+	margin-top: 10ch;
+	margin-bottom: 25ch;
+    grid-gap: 10ch;
+}
+
+.img_about {
+	width: 65ch;
+}
+
+.img_about_div {
+	margin-left: 80px;
+}
+
+.description_about {
+	margin-left: 100px;
+}
+
+p {
+	text-align: center;
+	font-size: 2ch;
+}
+
+button {
+	background-color: chocolate;
+	border-radius: 20px;
+	border-color: chocolate;
+	margin-left: 10ch;
+	margin-top: 3ch;
+	width: 15ch;
+	height: 5ch;
+	color: white;
+}
+
+button:hover {
+	background-color: white;
+	color: chocolate;
+}
+
+/* end  about */
+
+/***************************************** strat inset new post *****************************/
+.titre_center{
+    text-align: center;
+}
+.title_author{display: flex;
+    justify-content: center;
+    margin-bottom: 5ch;}
+.imageflex{
+display: flex;justify-content: center;
+margin-bottom: 5ch;
+}
+
+.post_content{display: flex;justify-content: center;
+    margin-bottom: 5ch;}
+.submitt{text-align: center;
+  margin-bottom: 10ch;
+}
+
+.insert_form{
+    width: 70%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: rgba(244, 232, 245, 0.452);
+    border-radius: 10px 10px 10px 10px;
+  
+}
+/* end insert new post*/
+
+/***************start login *****************/
+.headerr {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: rgb(138, 126, 126);
+   
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.forml,
+.content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 90%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #637575;
+    border: none;
+    border-radius: 5px;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #e22926;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success {
+  
+    background: #b1f099;
+    border: 1px solid #25115a;
+    margin-bottom: 20px;
+}
+.profile{
+    background-color: #B0C4DE;
+}
+/*end login */
+
+/*************start footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(24, 22, 22);
+    color: white;
+    text-align: center;
+ }
+/* end footer */
+
+
+
+
+
+
+/*post */
+.card{margin-bottom: 5ch;}
+.card-img-top{height: 20ch;}
+.ppost{font-size: 10px;}
+/* form edit*/
+.formedit{text-align: center;}
